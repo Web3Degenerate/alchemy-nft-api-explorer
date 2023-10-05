@@ -1,39 +1,45 @@
-
 ## Alchemy Tutorial From [YouTube Tutorial](https://www.youtube.com/watch?v=YehktV6LSqw&t=29s)
 
 - Project [Github Repo](https://github.com/alchemyplatform/Build-Your-NFT-Explorer)
 - Hosted React Project on [Vercel](https://build-your-nft-explorer.vercel.app/)
 - Original creator [Vitto Rivabella](https://twitter.com/vittostack)
 
-
 ## Setup
 
-- Install project named `alchemy-nft-api-explorer` with 
-    - `npx create-react-app alchemy-nft-api-explorer`
+- Install project named `alchemy-nft-api-explorer` with
+  - `npx create-react-app alchemy-nft-api-explorer`
 - Install Tailwind CSS [(8:10)](https://youtu.be/YehktV6LSqw?si=5KiIp5JCtWGZqxew&t=490)
-    - Per [TailwindCSS Installation Docs](https://tailwindcss.com/docs/installation)
-        - run **`npm install -D tailwindcss`**
-        - then initialize configuration (`tailwind.config.js`) with **`npx tailwindcss init`**
-    - At [(9:10)](https://youtu.be/YehktV6LSqw?si=XA1xmUJka5YGbg2H&t=550) update **tailwind.config.js**
-    - Add the Tailwind directives to our **top level main CSS file**, which in this project is `index.css`
-        
-```css
-@tailwind base; 
-@tailwind components; 
-@tailwind utilities; 
-```
+  - Per [TailwindCSS Installation Docs](https://tailwindcss.com/docs/installation)
+    - run **`npm install -D tailwindcss`**
+    - then initialize configuration (`tailwind.config.js`) with **`npx tailwindcss init`**
+  - At [(9:10)](https://youtu.be/YehktV6LSqw?si=XA1xmUJka5YGbg2H&t=550) update **tailwind.config.js**
+  - Add the Tailwind directives to our **top level main CSS file**, which in this project is `index.css`
 
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 ## Project Steps
 
-1. utils/FetchNfts.js set up at [(13:15)](https://youtu.be/YehktV6LSqw?si=0KEZegXs7YMrBOuw&t=795)
-    - Get your Alchemy API key. 
-    - 
+1. Set up `utils/FetchNfts.js` at [(13:15)](https://youtu.be/YehktV6LSqw?si=0KEZegXs7YMrBOuw&t=795)
 
-2. 
+   - Get your Alchemy API key.
+   - Add methods `fetchNFTs`, `getAddressNFTs`, `getNFTsMetadata`
+   - Completed by [(17:05)](https://youtu.be/YehktV6LSqw?si=-fd82-Cj2C0SH7TO&t=1025)
+
+2. Set up **components/NftCard.jsx** at [(18:05)](https://youtu.be/YehktV6LSqw?si=ITLyHVI7gXk_ugPF&t=1085)
+
+   - ends at [(20:00)](https://youtu.be/YehktV6LSqw?si=eAl-hxyP4SWqLfV0&t=1200)
+
+3. Set up **pages/Explore.jsx** at [(20:05)](https://youtu.be/YehktV6LSqw?si=eAl-hxyP4SWqLfV0&t=1205)
+   - x
 
 ---
+
 ---
+
 # Default Notes from Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

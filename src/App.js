@@ -1,9 +1,10 @@
-
+import Explore from './pages/Explore';
 
 function App() {
   return (
     <div className="App">
-      <h2>Landing Page Test</h2>
+      <h2>Alchemy NFT API Test</h2>
+      <Explore></Explore>
     </div>
   );
 }
