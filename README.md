@@ -1,9 +1,11 @@
 
-## Alchemy Tutorial From [YoutTube Tutorial](https://www.youtube.com/watch?v=YehktV6LSqw&t=29s)
+## Alchemy Tutorial From [YouTube Tutorial](https://www.youtube.com/watch?v=YehktV6LSqw&t=29s)
 
 - Project [Github Repo](https://github.com/alchemyplatform/Build-Your-NFT-Explorer)
 - Hosted React Project on [Vercel](https://build-your-nft-explorer.vercel.app/)
 - Original creator [Vitto Rivabella](https://twitter.com/vittostack)
+
+
 ## Setup
 
 - Install project named `alchemy-nft-api-explorer` with 
@@ -13,10 +15,25 @@
         - run **`npm install -D tailwindcss`**
         - then initialize configuration (`tailwind.config.js`) with **`npx tailwindcss init`**
     - At [(9:10)](https://youtu.be/YehktV6LSqw?si=XA1xmUJka5YGbg2H&t=550) update **tailwind.config.js**
-- x
+    - Add the Tailwind directives to our **top level main CSS file**, which in this project is `index.css`
+        
+```css
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+```
 
 
+## Project Steps
 
+1. utils/FetchNfts.js set up at [(13:15)](https://youtu.be/YehktV6LSqw?si=0KEZegXs7YMrBOuw&t=795)
+    - Get your Alchemy API key. 
+    - 
+
+2. 
+
+---
+---
 # Default Notes from Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
