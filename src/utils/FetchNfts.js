@@ -3,11 +3,21 @@
 
 //From: https://github.com/alchemyplatform/Build-Your-NFT-Explorer/blob/main/src/utils/fetchNFTs.js
 
+//Added dotenv: https://www.npmjs.com/package/dotenv
+// import 'dotenv/config'
 
 // const apiKey = "RVakgtAN1cOw89v5ZlSrVJ1jSFQyzRug";
-const apiKey = "A2pvwrXAZVrLVkFaVyMKcrA2LVsGzJw-"
-const endpoint = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}`;
+// const apiKey = "A2pvwrXAZVrLVkFaVyMKcrA2LVsGzJw-"
+// const endpoint = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}`;
 
+//set up new App on Mumbai (pt38 acct)
+// const apiKey = "T8PUx9tJnMPvtyqyemnVGri2qJb3TTD3"
+// const apiKey = "Xc4uErhS9TgxOvaesRWEvhps4DLeSe8Z"
+// const dotenv = require('dotenv')
+// const apiKey = process.env.ALCHEMY_API_KEY
+
+const apiKey = "QRN-l59dfu14Mj2UvGPcwGdjnaUUBuUQ"
+const endpoint = `https://polygon-mumbai.g.alchemy.com/v2/${apiKey}`
 // Owner wallet address
 // optional retryAttempt (call in recursive way)
 

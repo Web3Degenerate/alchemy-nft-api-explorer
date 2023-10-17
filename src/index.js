@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
+// import 'dotenv/config'
+// require('dotenv').config()
+
+// const dotenv = require('dotenv')
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
